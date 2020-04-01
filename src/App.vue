@@ -1,32 +1,19 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+  <div id="app" class="page corners padding transp">
+    <header>
+      <nav class="nav flex-column flex-sm-row">
+        <router-link to="/" class="flex-sm-fill flex-grow-1 text-sm-left nav-link active">
+          <h1>Lumia</h1>
+        </router-link>
+        <router-link to="/contact" class="text-sm-right nav-link">Kontakta oss</router-link>
+      </nav>
+    </header>
+
+    <main>
+      <router-view />
+    </main>
   </div>
 </template>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
+<style src="@/styles/style.css">
 </style>
