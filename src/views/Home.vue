@@ -68,7 +68,6 @@ export default {
           "name": "Bordslampa i guld",
           "id": 9,
           "description": "Mått Ø 55 cm, höjd 30 cm.",
-          "cost": 6900,
           "image": "https://d2lhb5rbruih0q.cloudfront.net/eyJ2IjoxMDIsInQiOiJwcm9kdWN0IiwibiI6IjUyMzI0Ni5qcGcifQ==/107942.jpg?q=85&w=670&h=447&dpr=2",
           "keywords": ["läslampa","80-tal"]
         },
