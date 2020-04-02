@@ -14,15 +14,26 @@
           <span>{{total}}</span>
         </li>
       </ul>
-      <router-link to="/order" class="btn btn-primary">Beställ</router-link>
+      <button v-if="!showOrder" class="btn btn-primary" @click="showOrder=true">Beställ</button>
+      <Order v-if="showOrder"></Order>
     </div>
   </div>
 </template>
 <script>
+import Order from '@/components/Order'
 export default {
+  components:{
+    Order
+  },
 
   // "props" är egna HTML-attribut som vi kan låta en annan komponent skicka in data med.
   props:['cartItems','showCart'],
+
+  data(){
+    return {
+      showOrder: false
+    }
+  },
 
   // "computed" är så kallade "getters" i Vue - här definierar vi modell-egenskaper som ska beräknas om varje gång något ändras
   computed:{
