@@ -7,6 +7,7 @@
         <li v-for="(item,index) in items" :key="index">
           {{item.name}}
           <span v-if="item.amount<2">{{item.cost}}</span>
+
           <span v-if="item.amount>1">{{item.amount}}x {{item.cost}} = {{item.cost * item.amount}}</span>
         </li>
         <li class="total">
