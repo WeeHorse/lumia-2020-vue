@@ -14,6 +14,7 @@
           <span>{{total}}</span>
         </li>
       </ul>
+      <router-link to="/order" class="btn btn-primary">Beställ</router-link>
     </div>
   </div>
 </template>

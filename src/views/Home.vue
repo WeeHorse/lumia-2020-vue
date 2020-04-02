@@ -6,17 +6,18 @@
       id="search"
       placeholder="Type to search"
       v-model="searchString"
-      @change="search"
+      @keyup="search"
     />
+
     <div class="lamps">
       <Product
         v-for="product in filteredProducts"
         :key="product.id"
-        v-bind:product="product"
-        v-bind:addToCart="addToCart"
+        :product="product"
+        :addToCart="addToCart"
       />
     </div>
-    <Cart v-bind:cartItems="cartItems" v-bind:showCart="showCart" />
+    <Cart :cartItems="cartItems" :showCart="showCart" />
   </div>
 </template>
 
@@ -24,6 +25,7 @@
 import Product from '@/components/Product'
 import Cart from '@/components/Cart'
 export default {
+  // lista på importerade komponenter
   components:{
     Product,
     Cart

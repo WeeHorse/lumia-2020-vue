@@ -9,16 +9,19 @@ describe('Home', () => {
     expect(component.isVueInstance()).toBeTruthy()
   })
 
-  test('renders Your source for good food!', () =>{
-    expect(component.text()).toContain('Your source for good food')
+  test('has a products array', ()=>{
+    expect(component.vm.products).toHaveProperty('push') // testade att products är en array genom att prova om den har array-metoden 'push'
   })
 
-  test('title is Your source for good food!', () => {
-    expect(component.vm.title).toEqual('Your source for good food!')
+  test('products array has at least one product', ()=>{
+    expect(component.vm.products[0]).toBeDefined()
   })
 
-  test('homepage is true', () => {
-    expect(component.vm.homepage).toEqual(true)
+  test('products all have a name and a cost property', ()=>{
+    for(let product of component.vm.products){
+      expect(product).toHaveProperty('name')
+      expect(product).toHaveProperty('cost')
+    }
   })
 
 })
