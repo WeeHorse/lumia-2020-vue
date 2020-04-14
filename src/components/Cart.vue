@@ -32,7 +32,8 @@ export default {
 
   data(){
     return {
-      showOrder: false
+      showOrder: false,
+      kartItems:[]
     }
   },
 
@@ -41,7 +42,7 @@ export default {
 
     items(){
       let itms = []
-      for(let item of this.cartItems){
+      for(let item of this.kartItems){
         let i = itms.indexOf(item)
         if(i > -1){
           itms[i].amount++
@@ -61,6 +62,9 @@ export default {
       return tot
     }
 
+  },
+  created(){
+    this.kartItems = this.cartItems
   }
 
 }
