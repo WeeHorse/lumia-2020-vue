@@ -1,6 +1,6 @@
 <template>
   <div class="basket">
-    <div v-if="showCart" class="overlay" @click="showCart=false"></div>
+    <div v-if="showCart" class="overlay" @click="hideCart"></div>
     <div v-if="showCart" id="cart" class="jumbotron corners padding transp">
       <h3>Varukorg</h3>
       <ul>
@@ -27,13 +27,9 @@ export default {
     Order
   },
 
-  // "props" är egna HTML-attribut som vi kan låta en annan komponent skicka in data med.
-  props:['cartItems','showCart'],
-
   data(){
     return {
-      showOrder: false,
-      kartItems:[]
+      showOrder: false
     }
   },
 
@@ -41,17 +37,7 @@ export default {
   computed:{
 
     items(){
-      let itms = []
-      for(let item of this.kartItems){
-        let i = itms.indexOf(item)
-        if(i > -1){
-          itms[i].amount++
-        }else{
-          item.amount = 1
-          itms.push(item)
-        }
-      }
-      return itms
+      return this.$store.state.cart.items
     },
 
     total(){
@@ -60,12 +46,17 @@ export default {
         tot += item.cost * item.amount
       }
       return tot
+    },
+
+    showCart(){
+      return this.$store.state.cart.show
     }
 
   },
-  created(){
-    if(this.cartItems && this.cartItems.push){
-      this.kartItems = this.cartItems
+
+  methods:{
+    hideCart(){
+      return this.$store.commit('showCart', false)
     }
   }
 
