@@ -15,7 +15,7 @@ let productTestData = {
 let productExpectedData = {
   "name": "Vit taklampa",
   "amount": 1,
-  "id": 14,
+  "id": 18,
   "description": "Mått Ø 25 cm, höjd 20 cm.",
   "cost": 2500,
   "image": "https://d2lhb5rbruih0q.cloudfront.net/eyJ2IjoxMDIsInQiOiJwcm9kdWN0IiwibiI6IjEyMzEwMS5qcGcifQ==/34537.jpg?q=85&w=670&h=447&dpr=2",
