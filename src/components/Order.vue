@@ -6,7 +6,7 @@
       <div class="form-row">
         <div class="form-group col-md-6">
           <label for="inputEmail4">Email</label>
-          <input type="email" class="form-control" id="inputEmail4" />
+          <input type="email" v-model="email" class="form-control" id="inputEmail4" />
         </div>
         <div class="form-group col-md-6">
           <label for="inputPassword4">Password</label>
@@ -41,7 +41,16 @@
 
 <script>
 export default {
-
+  computed:{
+    email:{
+      get(){
+        return this.$store.state.order.email
+      },
+      set(value){
+        this.$store.commit('setEmail', value)
+      }
+    }
+  }
 }
 
 </script>

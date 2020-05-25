@@ -5,21 +5,10 @@
             <property name="URI" value="/Applications/AMPPS/www/MVT19/lumia-2020-vue/tests/selenium/features/search.feature">
             </property>
         </properties>
-        <testcase name="Given that I&apos;m at the search page" classname="search-lumia;when-i-enter-text-in-search" time="2.016406711">
-            <failure message="SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 76">SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 76
-  (Driver info: chromedriver=76.0.3809.126 (d80a294506b4c9d18015e755cee48f953ddc3f2f-refs/branch-heads/3809@{#1024}),platform=Mac OS X 10.13.6 x86_64)
-    at Object.checkLegacyResponse (/Applications/AMPPS/www/MVT19/lumia-2020-vue/node_modules/selenium-cucumber-js/node_modules/selenium-webdriver/lib/error.js:529:15)
-    at parseHttpResponse (/Applications/AMPPS/www/MVT19/lumia-2020-vue/node_modules/selenium-cucumber-js/node_modules/selenium-webdriver/lib/http.js:509:13)
-    at doSend.then.response (/Applications/AMPPS/www/MVT19/lumia-2020-vue/node_modules/selenium-cucumber-js/node_modules/selenium-webdriver/lib/http.js:441:30)
-    at process._tickCallback (internal/process/next_tick.js:68:7)
-From: Task: WebDriver.createSession()
-    at Function.createSession (/Applications/AMPPS/www/MVT19/lumia-2020-vue/node_modules/selenium-cucumber-js/node_modules/selenium-webdriver/lib/webdriver.js:769:24)
-    at Function.createSession (/Applications/AMPPS/www/MVT19/lumia-2020-vue/node_modules/selenium-cucumber-js/node_modules/selenium-webdriver/chrome.js:761:15)
-    at createDriver (/Applications/AMPPS/www/MVT19/lumia-2020-vue/node_modules/selenium-cucumber-js/node_modules/selenium-webdriver/index.js:170:33)
-    at Builder.build (/Applications/AMPPS/www/MVT19/lumia-2020-vue/node_modules/selenium-cucumber-js/node_modules/selenium-webdriver/index.js:642:16)
-    at new module.exports (/Applications/AMPPS/www/MVT19/lumia-2020-vue/node_modules/selenium-cucumber-js/runtime/chromeDriver.js:20:8)
-    at getDriverInstance (/Applications/AMPPS/www/MVT19/lumia-2020-vue/node_modules/selenium-cucumber-js/runtime/world.js:54:22)
-    at /Applications/AMPPS/www/MVT19/lumia-2020-vue/node_modules/selenium-cucumber-js/runtime/world.js:207:29</failure>
+        <testcase name="Given that I&apos;m at the search page" classname="search-lumia;when-i-enter-text-in-search" time="6.207020264">
+            <failure message="AssertionError: Expected to find h1 element">AssertionError: Expected to find h1 element
+    at createWorld.&lt;anonymous&gt; (/Applications/AMPPS/www/MVT19/lumia-2020-vue/tests/selenium/step-definitions/search.js:9:5)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
         </testcase>
         <testcase name="When I enter search text &quot;taklampa&quot;" classname="search-lumia;when-i-enter-text-in-search">
             <skipped message="">

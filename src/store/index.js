@@ -8,11 +8,18 @@ export default new Vuex.Store({
     cart:{
       items:[],
       show: false
+    },
+    order:{
+      email:''
     }
   },
   mutations: {
+    setEmail(store, value){
+      store.order.email = value
+    },
     addToCart(store, value){
       console.log(value)
+      value.amount = 1
       store.cart.items.push(value)
     },
     showCart(store, value){

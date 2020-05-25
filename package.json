@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "chai": "^4.2.0",
+    "chromedriver": "^81.0.0",
     "core-js": "^3.6.4",
     "selenium-cucumber-js": "^1.7.0",
     "selenium-webdriver": "^4.0.0-alpha.7",
