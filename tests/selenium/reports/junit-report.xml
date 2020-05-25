@@ -1,26 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name="search-lumia;when-i-enter-text-in-search" tests="4" failures="1" skipped="3">
+    <testsuite name="search-lumia;when-i-enter-text-in-search" tests="3" failures="0" skipped="0">
         <properties>
             <property name="URI" value="/Applications/AMPPS/www/MVT19/lumia-2020-vue/tests/selenium/features/search.feature">
             </property>
         </properties>
-        <testcase name="Given that I&apos;m at the search page" classname="search-lumia;when-i-enter-text-in-search" time="6.207020264">
-            <failure message="AssertionError: Expected to find h1 element">AssertionError: Expected to find h1 element
-    at createWorld.&lt;anonymous&gt; (/Applications/AMPPS/www/MVT19/lumia-2020-vue/tests/selenium/step-definitions/search.js:9:5)
-    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+        <testcase name="Given that I&apos;m at the search page" classname="search-lumia;when-i-enter-text-in-search" time="9.573614621">
         </testcase>
-        <testcase name="When I enter search text &quot;taklampa&quot;" classname="search-lumia;when-i-enter-text-in-search">
-            <skipped message="">
-            </skipped>
+        <testcase name="When I enter search text &quot;taklampa&quot;" classname="search-lumia;when-i-enter-text-in-search" time="0.127686347">
         </testcase>
-        <testcase name="And I click the search button" classname="search-lumia;when-i-enter-text-in-search">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then the first test result should contain the word &quot;taklampa&quot;" classname="search-lumia;when-i-enter-text-in-search">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then the first test result should contain the word &quot;taklampa&quot;" classname="search-lumia;when-i-enter-text-in-search" time="0.120336406">
         </testcase>
     </testsuite>
 </testsuites>

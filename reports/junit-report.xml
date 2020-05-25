@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="search-lumia;when-i-enter-text-in-search" tests="3" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="/Applications/AMPPS/www/MVT19/lumia-2020-vue/tests/selenium/features/search.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I&apos;m at the search page" classname="search-lumia;when-i-enter-text-in-search" time="9.862708307">
+        </testcase>
+        <testcase name="When I enter search text &quot;taklampa&quot;" classname="search-lumia;when-i-enter-text-in-search" time="0.058203976">
+        </testcase>
+        <testcase name="Then the first test result should contain the word &quot;taklampa&quot;" classname="search-lumia;when-i-enter-text-in-search" time="0.074272887">
+        </testcase>
+    </testsuite>
+</testsuites>

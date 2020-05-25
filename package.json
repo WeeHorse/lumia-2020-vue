@@ -6,8 +6,12 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "test:selenium": "node node_modules/selenium-cucumber-js/index.js -f ./tests/selenium/features/ & exit 0",
-    "test:unit": "vue-cli-service test:unit"
+    "test:selenium": "node node_modules/selenium-cucumber-js/index.js -f ./tests/selenium/features/",
+    "test:unit": "vue-cli-service test:unit --json --outputFile=./reports/unit_report.json",
+    "test:postman": "newman run ./postman/Lumia.postman_collection.json --reporters cli,json --reporter-json-export ./reports/postman_report.json",
+    "report:selenium": "node ares-selenium-reporter.js",
+    "report:unit": "node ares-unit-reporter.js",
+    "report:postman": "node ares-postman-reporter.js"
   },
   "dependencies": {
     "chai": "^4.2.0",
@@ -25,6 +29,7 @@
     "@vue/cli-plugin-unit-jest": "^4.2.0",
     "@vue/cli-service": "^4.2.0",
     "@vue/test-utils": "1.0.0-beta.31",
+    "ares-helper": "^1.0.3",
     "babel-eslint": "^10.0.3",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.1.2",

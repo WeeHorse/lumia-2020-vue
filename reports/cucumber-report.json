@@ -1,0 +1,73 @@
+[
+  {
+    "elements": [
+      {
+        "id": "search-lumia;when-i-enter-text-in-search",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "When I enter text in search",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that I'm at the search page",
+            "result": {
+              "status": "passed",
+              "duration": 9862708307
+            },
+            "line": 4,
+            "match": {
+              "location": "/Applications/AMPPS/www/MVT19/lumia-2020-vue/tests/selenium/step-definitions/search.js:5"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter search text \"taklampa\"",
+            "result": {
+              "status": "passed",
+              "duration": 58203976
+            },
+            "line": 5,
+            "match": {
+              "location": "/Applications/AMPPS/www/MVT19/lumia-2020-vue/tests/selenium/step-definitions/search.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the first test result should contain the word \"taklampa\"",
+            "result": {
+              "status": "passed",
+              "duration": 74272887
+            },
+            "line": 6,
+            "match": {
+              "location": "/Applications/AMPPS/www/MVT19/lumia-2020-vue/tests/selenium/step-definitions/search.js:19"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 3035090842
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Applications/AMPPS/www/MVT19/lumia-2020-vue/node_modules/selenium-cucumber-js/runtime/world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "search-lumia",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Search Lumia",
+    "tags": [],
+    "uri": "/Applications/AMPPS/www/MVT19/lumia-2020-vue/tests/selenium/features/search.feature"
+  }
+]

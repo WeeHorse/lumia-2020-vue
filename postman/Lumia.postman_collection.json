@@ -1,0 +1,277 @@
+{
+	"info": {
+		"_postman_id": "0a73ec94-65ad-469b-9634-19771e0bf8d9",
+		"name": "Lumia",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:3000/rest/products",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/rest/products",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"rest",
+						"products"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "localhost:3000/rest/products",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/rest/products",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"rest",
+								"products"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json",
+							"description": "",
+							"type": "text"
+						}
+					],
+					"cookie": [],
+					"body": "[\n  {\n    \"name\": \"Vit taklampa\",\n    \"id\": 101,\n    \"description\": \"Mått Ø 25 cm, höjd 20 cm.\",\n    \"cost\": 2500,\n    \"image\": \"https://d2lhb5rbruih0q.cloudfront.net/eyJ2IjoxMDIsInQiOiJwcm9kdWN0IiwibiI6IjEyMzEwMS5qcGcifQ==/34537.jpg?q=85&w=670&h=447&dpr=2\",\n    \"keywords\": [\n      \"stor\",\n      \"20-tal\"\n    ]\n  },\n  {\n    \"name\": \"Bordslampa i guld\",\n    \"id\": 102,\n    \"description\": \"Mått Ø 55 cm, höjd 30 cm.\",\n    \"cost\": 6900,\n    \"image\": \"https://d2lhb5rbruih0q.cloudfront.net/eyJ2IjoxMDIsInQiOiJwcm9kdWN0IiwibiI6IjUyMzI0Ni5qcGcifQ==/107942.jpg?q=85&w=670&h=447&dpr=2\",\n    \"keywords\": [\n      \"läslampa\",\n      \"80-tal\"\n    ]\n  },\n  {\n    \"name\": \"Vit golvlampa\",\n    \"id\": 103,\n    \"description\": \"Mått Ø 15 cm, höjd 200 cm.\",\n    \"cost\": 1780,\n    \"image\": \"https://d2lhb5rbruih0q.cloudfront.net/eyJ2IjoxMTMsInQiOiJwcm9kdWN0IiwibiI6IjEwNTQ2Ni5qcGcifQ==/5778.jpg?q=85&w=670&h=447&dpr=2\",\n    \"keywords\": [\n      \"läslampa\"\n    ]\n  },\n  {\n    \"id\": 1,\n    \"name\": \"Phalacrocorax varius\",\n    \"description\": \"volutpat erat quisque erat eros viverra eget congue eget\",\n    \"cost\": 2688,\n    \"keywords\": \"70-tal\",\n    \"image\": \"http://dummyimage.com/139x240.png/ff4444/ffffff\"\n  },\n  {\n    \"id\": 2,\n    \"name\": \"Manouria emys\",\n    \"description\": \"a ipsum integer a nibh\",\n    \"cost\": 598,\n    \"keywords\": \"50-tal\",\n    \"image\": \"http://dummyimage.com/241x212.png/ff4444/ffffff\"\n  },\n  {\n    \"id\": 3,\n    \"name\": \"Cynictis penicillata\",\n    \"description\": \"nec sem duis aliquam convallis nunc proin\",\n    \"cost\": 709,\n    \"keywords\": \"10-tal\",\n    \"image\": \"http://dummyimage.com/141x191.png/5fa2dd/ffffff\"\n  },\n  {\n    \"id\": 4,\n    \"name\": \"Canis mesomelas\",\n    \"description\": \"dapibus dolor vel est donec\",\n    \"cost\": 594,\n    \"keywords\": \"30-tal\",\n    \"image\": \"http://dummyimage.com/153x158.png/dddddd/000000\"\n  },\n  {\n    \"id\": 5,\n    \"name\": \"Ceratotherium simum\",\n    \"description\": \"sem fusce consequat nulla nisl nunc nisl duis bibendum\",\n    \"cost\": 1068,\n    \"keywords\": \"80-tal\",\n    \"image\": \"http://dummyimage.com/187x210.png/ff4444/ffffff\"\n  },\n  {\n    \"id\": 6,\n    \"name\": \"Dusicyon thous\",\n    \"description\": \"ligula in lacus curabitur at\",\n    \"cost\": 3425,\n    \"keywords\": \"60-tal\",\n    \"image\": \"http://dummyimage.com/211x234.png/dddddd/000000\"\n  },\n  {\n    \"id\": 7,\n    \"name\": \"Macaca nemestrina\",\n    \"description\": \"lectus in quam fringilla rhoncus mauris enim leo rhoncus\",\n    \"cost\": 2083,\n    \"keywords\": \"20-tal\",\n    \"image\": \"http://dummyimage.com/162x249.png/ff4444/ffffff\"\n  },\n  {\n    \"id\": 8,\n    \"name\": \"Dasypus septemcincus\",\n    \"description\": \"in magna bibendum imperdiet nullam orci pede venenatis\",\n    \"cost\": 4334,\n    \"keywords\": \"00-tal\",\n    \"image\": \"http://dummyimage.com/242x103.png/5fa2dd/ffffff\"\n  },\n  {\n    \"id\": 9,\n    \"name\": \"Ammospermophilus nelsoni\",\n    \"description\": \"ante ipsum primis in faucibus\",\n    \"cost\": 2636,\n    \"keywords\": \"40-tal\",\n    \"image\": \"http://dummyimage.com/167x190.png/ff4444/ffffff\"\n  },\n  {\n    \"id\": 10,\n    \"name\": \"Pandon haliaetus\",\n    \"description\": \"donec odio justo sollicitudin ut suscipit a feugiat\",\n    \"cost\": 3427,\n    \"keywords\": \"00-tal\",\n    \"image\": \"http://dummyimage.com/146x207.png/5fa2dd/ffffff\"\n  },\n  {\n    \"id\": 11,\n    \"name\": \"Leptoptilos crumeniferus\",\n    \"description\": \"interdum venenatis turpis enim blandit mi\",\n    \"cost\": 404,\n    \"keywords\": \"50-tal\",\n    \"image\": \"http://dummyimage.com/102x110.png/ff4444/ffffff\"\n  },\n  {\n    \"id\": 12,\n    \"name\": \"Macropus agilis\",\n    \"description\": \"sit amet eros suspendisse accumsan tortor quis turpis sed ante\",\n    \"cost\": 4873,\n    \"keywords\": \"30-tal\",\n    \"image\": \"http://dummyimage.com/176x117.png/dddddd/000000\"\n  },\n  {\n    \"id\": 13,\n    \"name\": \"Pseudocheirus peregrinus\",\n    \"description\": \"rhoncus dui vel sem sed sagittis nam congue\",\n    \"cost\": 666,\n    \"keywords\": \"80-tal\",\n    \"image\": \"http://dummyimage.com/170x199.png/ff4444/ffffff\"\n  },\n  {\n    \"id\": 14,\n    \"name\": \"Crocuta crocuta\",\n    \"description\": \"a suscipit nulla elit ac nulla sed vel\",\n    \"cost\": 713,\n    \"keywords\": \"20-tal\",\n    \"image\": \"http://dummyimage.com/113x183.png/cc0000/ffffff\"\n  },\n  {\n    \"id\": 15,\n    \"name\": \"Caiman crocodilus\",\n    \"description\": \"et tempus semper est quam pharetra magna ac consequat metus\",\n    \"cost\": 1644,\n    \"keywords\": \"00-tal\",\n    \"image\": \"http://dummyimage.com/160x122.png/ff4444/ffffff\"\n  },\n  {\n    \"id\": 16,\n    \"name\": \"Uraeginthus angolensis\",\n    \"description\": \"in libero ut massa volutpat\",\n    \"cost\": 1600,\n    \"keywords\": \"10-tal\",\n    \"image\": \"http://dummyimage.com/132x119.png/dddddd/000000\"\n  },\n  {\n    \"id\": 17,\n    \"name\": \"Dusicyon thous\",\n    \"description\": \"dapibus duis at velit eu est congue elementum\",\n    \"cost\": 4037,\n    \"keywords\": \"90-tal\",\n    \"image\": \"http://dummyimage.com/182x209.png/cc0000/ffffff\"\n  },\n  {\n    \"id\": 18,\n    \"name\": \"Zonotrichia capensis\",\n    \"description\": \"libero convallis eget eleifend luctus ultricies eu nibh quisque id\",\n    \"cost\": 1654,\n    \"keywords\": \"80-tal\",\n    \"image\": \"http://dummyimage.com/185x149.png/dddddd/000000\"\n  },\n  {\n    \"id\": 19,\n    \"name\": \"Pycnonotus nigricans\",\n    \"description\": \"rutrum nulla tellus in sagittis\",\n    \"cost\": 865,\n    \"keywords\": \"40-tal\",\n    \"image\": \"http://dummyimage.com/226x203.png/dddddd/000000\"\n  },\n  {\n    \"id\": 20,\n    \"name\": \"unavailable\",\n    \"description\": \"in porttitor pede justo eu massa donec dapibus\",\n    \"cost\": 662,\n    \"keywords\": \"30-tal\",\n    \"image\": \"http://dummyimage.com/175x229.png/cc0000/ffffff\"\n  },\n  {\n    \"id\": 21,\n    \"name\": \"Milvago chimachima\",\n    \"description\": \"elit proin risus praesent lectus vestibulum quam sapien varius\",\n    \"cost\": 3188,\n    \"keywords\": \"40-tal\",\n    \"image\": \"http://dummyimage.com/141x216.png/5fa2dd/ffffff\"\n  },\n  {\n    \"id\": 22,\n    \"name\": \"Halcyon smyrnesis\",\n    \"description\": \"dolor vel est donec odio justo sollicitudin ut\",\n    \"cost\": 590,\n    \"keywords\": \"90-tal\",\n    \"image\": \"http://dummyimage.com/190x214.png/ff4444/ffffff\"\n  },\n  {\n    \"id\": 23,\n    \"name\": \"Cercatetus concinnus\",\n    \"description\": \"lectus in est risus auctor sed tristique in\",\n    \"cost\": 4838,\n    \"keywords\": \"30-tal\",\n    \"image\": \"http://dummyimage.com/234x226.png/cc0000/ffffff\"\n  },\n  {\n    \"id\": 24,\n    \"name\": \"Sula dactylatra\",\n    \"description\": \"ac nulla sed vel enim sit amet nunc viverra dapibus\",\n    \"cost\": 4904,\n    \"keywords\": \"20-tal\",\n    \"image\": \"http://dummyimage.com/226x191.png/5fa2dd/ffffff\"\n  },\n  {\n    \"id\": 25,\n    \"name\": \"Tockus flavirostris\",\n    \"description\": \"ligula nec sem duis aliquam\",\n    \"cost\": 4916,\n    \"keywords\": \"10-tal\",\n    \"image\": \"http://dummyimage.com/185x196.png/cc0000/ffffff\"\n  },\n  {\n    \"id\": 26,\n    \"name\": \"Gekko gecko\",\n    \"description\": \"dui proin leo odio porttitor id consequat in consequat ut\",\n    \"cost\": 636,\n    \"keywords\": \"90-tal\",\n    \"image\": \"http://dummyimage.com/180x191.png/cc0000/ffffff\"\n  },\n  {\n    \"id\": 27,\n    \"name\": \"Dolichitus patagonum\",\n    \"description\": \"erat fermentum justo nec condimentum neque sapien placerat ante nulla\",\n    \"cost\": 3813,\n    \"keywords\": \"50-tal\",\n    \"image\": \"http://dummyimage.com/168x163.png/dddddd/000000\"\n  },\n  {\n    \"id\": 28,\n    \"name\": \"Upupa epops\",\n    \"description\": \"quam a odio in hac habitasse platea dictumst maecenas\",\n    \"cost\": 2536,\n    \"keywords\": \"10-tal\",\n    \"image\": \"http://dummyimage.com/225x131.png/dddddd/000000\"\n  },\n  {\n    \"id\": 29,\n    \"name\": \"Vanellus armatus\",\n    \"description\": \"orci vehicula condimentum curabitur in libero\",\n    \"cost\": 1207,\n    \"keywords\": \"30-tal\",\n    \"image\": \"http://dummyimage.com/155x205.png/cc0000/ffffff\"\n  },\n  {\n    \"id\": 30,\n    \"name\": \"unavailable\",\n    \"description\": \"enim leo rhoncus sed vestibulum sit amet\",\n    \"cost\": 4984,\n    \"keywords\": \"50-tal\",\n    \"image\": \"http://dummyimage.com/172x217.png/5fa2dd/ffffff\"\n  },\n  {\n    \"id\": 31,\n    \"name\": \"Eurocephalus anguitimens\",\n    \"description\": \"hac habitasse platea dictumst morbi vestibulum\",\n    \"cost\": 3493,\n    \"keywords\": \"40-tal\",\n    \"image\": \"http://dummyimage.com/129x159.png/5fa2dd/ffffff\"\n  },\n  {\n    \"id\": 32,\n    \"name\": \"Tursiops truncatus\",\n    \"description\": \"penatibus et magnis dis parturient montes\",\n    \"cost\": 1326,\n    \"keywords\": \"20-tal\",\n    \"image\": \"http://dummyimage.com/179x243.png/ff4444/ffffff\"\n  },\n  {\n    \"id\": 33,\n    \"name\": \"Eremophila alpestris\",\n    \"description\": \"mattis egestas metus aenean fermentum donec ut mauris eget massa\",\n    \"cost\": 2659,\n    \"keywords\": \"60-tal\",\n    \"image\": \"http://dummyimage.com/229x192.png/5fa2dd/ffffff\"\n  },\n  {\n    \"id\": 34,\n    \"name\": \"Eubalaena australis\",\n    \"description\": \"ultrices posuere cubilia curae donec\",\n    \"cost\": 2439,\n    \"keywords\": \"10-tal\",\n    \"image\": \"http://dummyimage.com/104x236.png/ff4444/ffffff\"\n  },\n  {\n    \"id\": 35,\n    \"name\": \"Colobus guerza\",\n    \"description\": \"venenatis lacinia aenean sit amet justo morbi\",\n    \"cost\": 4823,\n    \"keywords\": \"10-tal\",\n    \"image\": \"http://dummyimage.com/142x153.png/ff4444/ffffff\"\n  },\n  {\n    \"id\": 36,\n    \"name\": \"Dicrostonyx groenlandicus\",\n    \"description\": \"non lectus aliquam sit amet diam\",\n    \"cost\": 3678,\n    \"keywords\": \"10-tal\",\n    \"image\": \"http://dummyimage.com/198x157.png/ff4444/ffffff\"\n  },\n  {\n    \"id\": 37,\n    \"name\": \"Leptoptilus dubius\",\n    \"description\": \"id luctus nec molestie sed justo pellentesque\",\n    \"cost\": 4596,\n    \"keywords\": \"00-tal\",\n    \"image\": \"http://dummyimage.com/129x131.png/dddddd/000000\"\n  },\n  {\n    \"id\": 38,\n    \"name\": \"Vicugna vicugna\",\n    \"description\": \"donec diam neque vestibulum eget vulputate ut\",\n    \"cost\": 936,\n    \"keywords\": \"40-tal\",\n    \"image\": \"http://dummyimage.com/217x103.png/ff4444/ffffff\"\n  },\n  {\n    \"id\": 39,\n    \"name\": \"Papio ursinus\",\n    \"description\": \"ultrices libero non mattis pulvinar\",\n    \"cost\": 3128,\n    \"keywords\": \"20-tal\",\n    \"image\": \"http://dummyimage.com/147x235.png/dddddd/000000\"\n  },\n  {\n    \"id\": 40,\n    \"name\": \"Libellula quadrimaculata\",\n    \"description\": \"congue diam id ornare imperdiet sapien urna\",\n    \"cost\": 2002,\n    \"keywords\": \"80-tal\",\n    \"image\": \"http://dummyimage.com/132x190.png/dddddd/000000\"\n  },\n  {\n    \"id\": 41,\n    \"name\": \"Panthera onca\",\n    \"description\": \"donec ut mauris eget massa\",\n    \"cost\": 1260,\n    \"keywords\": \"60-tal\",\n    \"image\": \"http://dummyimage.com/164x110.png/ff4444/ffffff\"\n  },\n  {\n    \"id\": 42,\n    \"name\": \"Francolinus swainsonii\",\n    \"description\": \"metus aenean fermentum donec ut mauris eget massa tempor\",\n    \"cost\": 3535,\n    \"keywords\": \"30-tal\",\n    \"image\": \"http://dummyimage.com/156x191.png/dddddd/000000\"\n  },\n  {\n    \"id\": 43,\n    \"name\": \"Phalacrocorax niger\",\n    \"description\": \"suspendisse ornare consequat lectus in est\",\n    \"cost\": 2092,\n    \"keywords\": \"20-tal\",\n    \"image\": \"http://dummyimage.com/230x148.png/5fa2dd/ffffff\"\n  },\n  {\n    \"id\": 44,\n    \"name\": \"Canis lupus baileyi\",\n    \"description\": \"nibh quisque id justo sit amet\",\n    \"cost\": 4669,\n    \"keywords\": \"40-tal\",\n    \"image\": \"http://dummyimage.com/206x250.png/ff4444/ffffff\"\n  },\n  {\n    \"id\": 45,\n    \"name\": \"Cracticus nigroagularis\",\n    \"description\": \"sollicitudin vitae consectetuer eget rutrum at\",\n    \"cost\": 4231,\n    \"keywords\": \"60-tal\",\n    \"image\": \"http://dummyimage.com/143x168.png/dddddd/000000\"\n  },\n  {\n    \"id\": 46,\n    \"name\": \"Canis mesomelas\",\n    \"description\": \"accumsan tortor quis turpis sed ante\",\n    \"cost\": 459,\n    \"keywords\": \"50-tal\",\n    \"image\": \"http://dummyimage.com/172x162.png/cc0000/ffffff\"\n  },\n  {\n    \"id\": 47,\n    \"name\": \"Haliaeetus leucoryphus\",\n    \"description\": \"in eleifend quam a odio in hac habitasse platea\",\n    \"cost\": 1256,\n    \"keywords\": \"60-tal\",\n    \"image\": \"http://dummyimage.com/193x203.png/dddddd/000000\"\n  },\n  {\n    \"id\": 48,\n    \"name\": \"Macaca mulatta\",\n    \"description\": \"libero non mattis pulvinar nulla pede ullamcorper augue a\",\n    \"cost\": 2740,\n    \"keywords\": \"40-tal\",\n    \"image\": \"http://dummyimage.com/231x126.png/dddddd/000000\"\n  },\n  {\n    \"id\": 49,\n    \"name\": \"Zalophus californicus\",\n    \"description\": \"tristique in tempus sit amet sem fusce consequat nulla nisl\",\n    \"cost\": 4787,\n    \"keywords\": \"70-tal\",\n    \"image\": \"http://dummyimage.com/179x119.png/cc0000/ffffff\"\n  },\n  {\n    \"id\": 50,\n    \"name\": \"Gymnorhina tibicen\",\n    \"description\": \"congue elementum in hac habitasse platea\",\n    \"cost\": 794,\n    \"keywords\": \"20-tal\",\n    \"image\": \"http://dummyimage.com/163x104.png/5fa2dd/ffffff\"\n  },\n  {\n    \"id\": 51,\n    \"name\": \"Ovibos moschatus\",\n    \"description\": \"rutrum at lorem integer tincidunt\",\n    \"cost\": 1312,\n    \"keywords\": \"50-tal\",\n    \"image\": \"http://dummyimage.com/117x172.png/ff4444/ffffff\"\n  },\n  {\n    \"id\": 52,\n    \"name\": \"Meleagris gallopavo\",\n    \"description\": \"pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus\",\n    \"cost\": 2254,\n    \"keywords\": \"80-tal\",\n    \"image\": \"http://dummyimage.com/101x179.png/5fa2dd/ffffff\"\n  },\n  {\n    \"id\": 53,\n    \"name\": \"Chauna torquata\",\n    \"description\": \"pretium nisl ut volutpat sapien arcu sed augue\",\n    \"cost\": 3811,\n    \"keywords\": \"20-tal\",\n    \"image\": \"http://dummyimage.com/129x126.png/dddddd/000000\"\n  },\n  {\n    \"id\": 54,\n    \"name\": \"Tauraco porphyrelophus\",\n    \"description\": \"in hac habitasse platea dictumst etiam faucibus cursus urna ut\",\n    \"cost\": 1193,\n    \"keywords\": \"00-tal\",\n    \"image\": \"http://dummyimage.com/141x113.png/5fa2dd/ffffff\"\n  },\n  {\n    \"id\": 55,\n    \"name\": \"Alectura lathami\",\n    \"description\": \"dictumst etiam faucibus cursus urna ut\",\n    \"cost\": 3095,\n    \"keywords\": \"70-tal\",\n    \"image\": \"http://dummyimage.com/149x169.png/cc0000/ffffff\"\n  },\n  {\n    \"id\": 56,\n    \"name\": \"Centrocercus urophasianus\",\n    \"description\": \"ante ipsum primis in faucibus orci luctus et\",\n    \"cost\": 558,\n    \"keywords\": \"00-tal\",\n    \"image\": \"http://dummyimage.com/217x223.png/dddddd/000000\"\n  },\n  {\n    \"id\": 57,\n    \"name\": \"Manouria emys\",\n    \"description\": \"et ultrices posuere cubilia curae\",\n    \"cost\": 4064,\n    \"keywords\": \"00-tal\",\n    \"image\": \"http://dummyimage.com/179x215.png/5fa2dd/ffffff\"\n  },\n  {\n    \"id\": 58,\n    \"name\": \"Orcinus orca\",\n    \"description\": \"eros suspendisse accumsan tortor quis turpis sed ante\",\n    \"cost\": 669,\n    \"keywords\": \"10-tal\",\n    \"image\": \"http://dummyimage.com/175x111.png/cc0000/ffffff\"\n  },\n  {\n    \"id\": 59,\n    \"name\": \"Dasypus novemcinctus\",\n    \"description\": \"a odio in hac habitasse platea dictumst maecenas\",\n    \"cost\": 637,\n    \"keywords\": \"20-tal\",\n    \"image\": \"http://dummyimage.com/225x245.png/ff4444/ffffff\"\n  },\n  {\n    \"id\": 60,\n    \"name\": \"Cacatua tenuirostris\",\n    \"description\": \"in congue etiam justo etiam pretium iaculis justo in hac\",\n    \"cost\": 4837,\n    \"keywords\": \"70-tal\",\n    \"image\": \"http://dummyimage.com/185x184.png/ff4444/ffffff\"\n  },\n  {\n    \"id\": 61,\n    \"name\": \"Ctenophorus ornatus\",\n    \"description\": \"pellentesque ultrices phasellus id sapien in sapien iaculis\",\n    \"cost\": 4695,\n    \"keywords\": \"40-tal\",\n    \"image\": \"http://dummyimage.com/223x214.png/5fa2dd/ffffff\"\n  },\n  {\n    \"id\": 62,\n    \"name\": \"Acrantophis madagascariensis\",\n    \"description\": \"amet nunc viverra dapibus nulla suscipit\",\n    \"cost\": 3899,\n    \"keywords\": \"70-tal\",\n    \"image\": \"http://dummyimage.com/136x109.png/ff4444/ffffff\"\n  },\n  {\n    \"id\": 63,\n    \"name\": \"Corvus brachyrhynchos\",\n    \"description\": \"id massa id nisl venenatis lacinia aenean\",\n    \"cost\": 3696,\n    \"keywords\": \"60-tal\",\n    \"image\": \"http://dummyimage.com/132x227.png/ff4444/ffffff\"\n  },\n  {\n    \"id\": 64,\n    \"name\": \"Felis libyca\",\n    \"description\": \"justo pellentesque viverra pede ac diam cras pellentesque volutpat\",\n    \"cost\": 1377,\n    \"keywords\": \"60-tal\",\n    \"image\": \"http://dummyimage.com/168x121.png/5fa2dd/ffffff\"\n  },\n  {\n    \"id\": 65,\n    \"name\": \"Agkistrodon piscivorus\",\n    \"description\": \"sed sagittis nam congue risus semper porta\",\n    \"cost\": 3185,\n    \"keywords\": \"00-tal\",\n    \"image\": \"http://dummyimage.com/176x141.png/dddddd/000000\"\n  },\n  {\n    \"id\": 66,\n    \"name\": \"Ciconia episcopus\",\n    \"description\": \"imperdiet nullam orci pede venenatis non sodales sed tincidunt\",\n    \"cost\": 4561,\n    \"keywords\": \"30-tal\",\n    \"image\": \"http://dummyimage.com/129x115.png/ff4444/ffffff\"\n  },\n  {\n    \"id\": 67,\n    \"name\": \"Casmerodius albus\",\n    \"description\": \"pede posuere nonummy integer non velit donec diam\",\n    \"cost\": 839,\n    \"keywords\": \"90-tal\",\n    \"image\": \"http://dummyimage.com/173x180.png/cc0000/ffffff\"\n  },\n  {\n    \"id\": 68,\n    \"name\": \"Bos frontalis\",\n    \"description\": \"vestibulum sit amet cursus id turpis integer aliquet massa\",\n    \"cost\": 2416,\n    \"keywords\": \"40-tal\",\n    \"image\": \"http://dummyimage.com/154x129.png/5fa2dd/ffffff\"\n  },\n  {\n    \"id\": 69,\n    \"name\": \"Neotis denhami\",\n    \"description\": \"a ipsum integer a nibh in quis\",\n    \"cost\": 1419,\n    \"keywords\": \"50-tal\",\n    \"image\": \"http://dummyimage.com/113x198.png/ff4444/ffffff\"\n  },\n  {\n    \"id\": 70,\n    \"name\": \"Casmerodius albus\",\n    \"description\": \"massa id lobortis convallis tortor risus\",\n    \"cost\": 4137,\n    \"keywords\": \"60-tal\",\n    \"image\": \"http://dummyimage.com/201x250.png/dddddd/000000\"\n  },\n  {\n    \"id\": 71,\n    \"name\": \"Psophia viridis\",\n    \"description\": \"cursus id turpis integer aliquet massa id lobortis\",\n    \"cost\": 2569,\n    \"keywords\": \"00-tal\",\n    \"image\": \"http://dummyimage.com/224x153.png/dddddd/000000\"\n  },\n  {\n    \"id\": 72,\n    \"name\": \"Antidorcas marsupialis\",\n    \"description\": \"sed vestibulum sit amet cursus id turpis\",\n    \"cost\": 4157,\n    \"keywords\": \"00-tal\",\n    \"image\": \"http://dummyimage.com/173x223.png/5fa2dd/ffffff\"\n  },\n  {\n    \"id\": 73,\n    \"name\": \"Bucephala clangula\",\n    \"description\": \"eleifend donec ut dolor morbi vel lectus\",\n    \"cost\": 4531,\n    \"keywords\": \"50-tal\",\n    \"image\": \"http://dummyimage.com/226x160.png/dddddd/000000\"\n  },\n  {\n    \"id\": 74,\n    \"name\": \"Felis rufus\",\n    \"description\": \"curabitur at ipsum ac tellus semper interdum mauris ullamcorper\",\n    \"cost\": 4866,\n    \"keywords\": \"30-tal\",\n    \"image\": \"http://dummyimage.com/170x101.png/cc0000/ffffff\"\n  },\n  {\n    \"id\": 75,\n    \"name\": \"Physignathus cocincinus\",\n    \"description\": \"ante ipsum primis in faucibus\",\n    \"cost\": 2559,\n    \"keywords\": \"10-tal\",\n    \"image\": \"http://dummyimage.com/194x180.png/5fa2dd/ffffff\"\n  },\n  {\n    \"id\": 76,\n    \"name\": \"Cathartes aura\",\n    \"description\": \"pretium nisl ut volutpat sapien arcu\",\n    \"cost\": 3379,\n    \"keywords\": \"40-tal\",\n    \"image\": \"http://dummyimage.com/240x214.png/ff4444/ffffff\"\n  },\n  {\n    \"id\": 77,\n    \"name\": \"Kobus vardonii vardoni\",\n    \"description\": \"primis in faucibus orci luctus et\",\n    \"cost\": 2663,\n    \"keywords\": \"30-tal\",\n    \"image\": \"http://dummyimage.com/110x218.png/dddddd/000000\"\n  },\n  {\n    \"id\": 78,\n    \"name\": \"Parus atricapillus\",\n    \"description\": \"ultrices posuere cubilia curae mauris\",\n    \"cost\": 1740,\n    \"keywords\": \"80-tal\",\n    \"image\": \"http://dummyimage.com/172x165.png/ff4444/ffffff\"\n  },\n  {\n    \"id\": 79,\n    \"name\": \"Spheniscus magellanicus\",\n    \"description\": \"neque aenean auctor gravida sem\",\n    \"cost\": 472,\n    \"keywords\": \"10-tal\",\n    \"image\": \"http://dummyimage.com/150x131.png/5fa2dd/ffffff\"\n  },\n  {\n    \"id\": 80,\n    \"name\": \"Choloepus hoffmani\",\n    \"description\": \"morbi non lectus aliquam sit amet diam in\",\n    \"cost\": 4761,\n    \"keywords\": \"90-tal\",\n    \"image\": \"http://dummyimage.com/231x105.png/5fa2dd/ffffff\"\n  },\n  {\n    \"id\": 81,\n    \"name\": \"Rhea americana\",\n    \"description\": \"quis orci eget orci vehicula condimentum curabitur in libero ut\",\n    \"cost\": 3654,\n    \"keywords\": \"70-tal\",\n    \"image\": \"http://dummyimage.com/164x149.png/dddddd/000000\"\n  },\n  {\n    \"id\": 82,\n    \"name\": \"Podargus strigoides\",\n    \"description\": \"odio cras mi pede malesuada\",\n    \"cost\": 545,\n    \"keywords\": \"10-tal\",\n    \"image\": \"http://dummyimage.com/110x194.png/ff4444/ffffff\"\n  },\n  {\n    \"id\": 83,\n    \"name\": \"Charadrius tricollaris\",\n    \"description\": \"leo odio porttitor id consequat in consequat ut\",\n    \"cost\": 2318,\n    \"keywords\": \"40-tal\",\n    \"image\": \"http://dummyimage.com/176x243.png/ff4444/ffffff\"\n  },\n  {\n    \"id\": 84,\n    \"name\": \"Neophoca cinerea\",\n    \"description\": \"adipiscing lorem vitae mattis nibh\",\n    \"cost\": 1809,\n    \"keywords\": \"80-tal\",\n    \"image\": \"http://dummyimage.com/101x117.png/ff4444/ffffff\"\n  },\n  {\n    \"id\": 85,\n    \"name\": \"Echimys chrysurus\",\n    \"description\": \"nulla dapibus dolor vel est donec odio justo sollicitudin ut\",\n    \"cost\": 3861,\n    \"keywords\": \"10-tal\",\n    \"image\": \"http://dummyimage.com/143x192.png/ff4444/ffffff\"\n  },\n  {\n    \"id\": 86,\n    \"name\": \"Spizaetus coronatus\",\n    \"description\": \"quis orci nullam molestie nibh\",\n    \"cost\": 3409,\n    \"keywords\": \"40-tal\",\n    \"image\": \"http://dummyimage.com/217x161.png/cc0000/ffffff\"\n  },\n  {\n    \"id\": 87,\n    \"name\": \"Coluber constrictor\",\n    \"description\": \"ipsum praesent blandit lacinia erat vestibulum\",\n    \"cost\": 3552,\n    \"keywords\": \"60-tal\",\n    \"image\": \"http://dummyimage.com/185x133.png/5fa2dd/ffffff\"\n  },\n  {\n    \"id\": 88,\n    \"name\": \"Cervus canadensis\",\n    \"description\": \"scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis\",\n    \"cost\": 4609,\n    \"keywords\": \"10-tal\",\n    \"image\": \"http://dummyimage.com/164x213.png/ff4444/ffffff\"\n  },\n  {\n    \"id\": 89,\n    \"name\": \"Macropus agilis\",\n    \"description\": \"nisl aenean lectus pellentesque eget\",\n    \"cost\": 4614,\n    \"keywords\": \"90-tal\",\n    \"image\": \"http://dummyimage.com/140x207.png/5fa2dd/ffffff\"\n  },\n  {\n    \"id\": 90,\n    \"name\": \"Acanthaster planci\",\n    \"description\": \"odio consequat varius integer ac leo\",\n    \"cost\": 2336,\n    \"keywords\": \"90-tal\",\n    \"image\": \"http://dummyimage.com/231x239.png/cc0000/ffffff\"\n  },\n  {\n    \"id\": 91,\n    \"name\": \"Cacatua tenuirostris\",\n    \"description\": \"odio condimentum id luctus nec molestie sed justo\",\n    \"cost\": 5081,\n    \"keywords\": \"30-tal\",\n    \"image\": \"http://dummyimage.com/144x143.png/cc0000/ffffff\"\n  },\n  {\n    \"id\": 92,\n    \"name\": \"Irania gutteralis\",\n    \"description\": \"vestibulum velit id pretium iaculis\",\n    \"cost\": 4862,\n    \"keywords\": \"80-tal\",\n    \"image\": \"http://dummyimage.com/193x162.png/ff4444/ffffff\"\n  },\n  {\n    \"id\": 93,\n    \"name\": \"Paraxerus cepapi\",\n    \"description\": \"nec nisi volutpat eleifend donec\",\n    \"cost\": 3635,\n    \"keywords\": \"80-tal\",\n    \"image\": \"http://dummyimage.com/222x190.png/dddddd/000000\"\n  },\n  {\n    \"id\": 94,\n    \"name\": \"Connochaetus taurinus\",\n    \"description\": \"diam cras pellentesque volutpat dui maecenas tristique est\",\n    \"cost\": 2909,\n    \"keywords\": \"80-tal\",\n    \"image\": \"http://dummyimage.com/122x190.png/ff4444/ffffff\"\n  },\n  {\n    \"id\": 95,\n    \"name\": \"Anser caerulescens\",\n    \"description\": \"eu est congue elementum in hac habitasse platea\",\n    \"cost\": 3639,\n    \"keywords\": \"00-tal\",\n    \"image\": \"http://dummyimage.com/151x232.png/5fa2dd/ffffff\"\n  },\n  {\n    \"id\": 96,\n    \"name\": \"Anitibyx armatus\",\n    \"description\": \"congue etiam justo etiam pretium iaculis justo\",\n    \"cost\": 4030,\n    \"keywords\": \"80-tal\",\n    \"image\": \"http://dummyimage.com/238x214.png/5fa2dd/ffffff\"\n  },\n  {\n    \"id\": 97,\n    \"name\": \"Nesomimus trifasciatus\",\n    \"description\": \"nunc vestibulum ante ipsum primis in faucibus orci luctus et\",\n    \"cost\": 3867,\n    \"keywords\": \"90-tal\",\n    \"image\": \"http://dummyimage.com/246x135.png/dddddd/000000\"\n  },\n  {\n    \"id\": 98,\n    \"name\": \"Ovis ammon\",\n    \"description\": \"ac diam cras pellentesque volutpat dui maecenas tristique est et\",\n    \"cost\": 1600,\n    \"keywords\": \"20-tal\",\n    \"image\": \"http://dummyimage.com/203x244.png/dddddd/000000\"\n  },\n  {\n    \"id\": 99,\n    \"name\": \"Canis aureus\",\n    \"description\": \"quam sapien varius ut blandit non\",\n    \"cost\": 1945,\n    \"keywords\": \"10-tal\",\n    \"image\": \"http://dummyimage.com/206x152.png/dddddd/000000\"\n  },\n  {\n    \"id\": 100,\n    \"name\": \"Bubo virginianus\",\n    \"description\": \"faucibus orci luctus et ultrices\",\n    \"cost\": 3781,\n    \"keywords\": \"00-tal\",\n    \"image\": \"http://dummyimage.com/250x163.png/cc0000/ffffff\"\n  }\n]"
+				}
+			]
+		},
+		{
+			"name": "https://e4e3f012-ead4-4998-883b-cf4a8e247adc.mock.pstmn.io/rest/products",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://e4e3f012-ead4-4998-883b-cf4a8e247adc.mock.pstmn.io/rest/products",
+					"protocol": "https",
+					"host": [
+						"e4e3f012-ead4-4998-883b-cf4a8e247adc",
+						"mock",
+						"pstmn",
+						"io"
+					],
+					"path": [
+						"rest",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/rest/products",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Uplight bonanza\",\n    \"description\": \"Mått Ø 55 cm, höjd 10 cm.\",\n    \"cost\": 900,\n    \"image\": \"https://d2lhb5rbruih0q.cloudfront.net/eyJ2IjoxMDIsInQiOiJwcm9kdWN0IiwibiI6IjUyMzI0Ni5qcGcifQ==/107942.jpg?q=85&w=670&h=447&dpr=2\",\n    \"keywords\": \"läslampa, 80-tal\"\n  }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/rest/products",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"rest",
+						"products"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "localhost:3000/rest/products",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Uplight bonanza\",\n    \"description\": \"Mått Ø 55 cm, höjd 10 cm.\",\n    \"cost\": 900,\n    \"image\": \"https://d2lhb5rbruih0q.cloudfront.net/eyJ2IjoxMDIsInQiOiJwcm9kdWN0IiwibiI6IjUyMzI0Ni5qcGcifQ==/107942.jpg?q=85&w=670&h=447&dpr=2\",\n    \"keywords\": \"läslampa, 80-tal\"\n  }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/rest/products",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"rest",
+								"products"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json",
+							"description": "",
+							"type": "text"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"fieldCount\": 0,\n    \"affectedRows\": 1,\n    \"insertId\": 201,\n    \"serverStatus\": 2,\n    \"warningCount\": 0,\n    \"message\": \"\",\n    \"protocol41\": true,\n    \"changedRows\": 0\n}"
+				}
+			]
+		},
+		{
+			"name": "https://e4e3f012-ead4-4998-883b-cf4a8e247adc.mock.pstmn.io/rest/products",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Xusicyon thous\",\n    \"description\": \"ligula in lacus curabitur at\",\n    \"cost\": 300,\n    \"keywords\": \"60-tal\",\n    \"image\": \"http://dummyimage.com/211x234.png/dddddd/000000\"\n  }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://e4e3f012-ead4-4998-883b-cf4a8e247adc.mock.pstmn.io/rest/products",
+					"protocol": "https",
+					"host": [
+						"e4e3f012-ead4-4998-883b-cf4a8e247adc",
+						"mock",
+						"pstmn",
+						"io"
+					],
+					"path": [
+						"rest",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/rest/products/201",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/rest/products/201",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"rest",
+						"products",
+						"201"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "localhost:3000/rest/products/201",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/rest/products/201",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"rest",
+								"products",
+								"201"
+							]
+						}
+					},
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json",
+							"description": "",
+							"type": "text"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"fieldCount\": 0,\n    \"affectedRows\": 1,\n    \"serverStatus\": 2,\n    \"warningCount\": 0,\n    \"message\": \"\",\n    \"protocol41\": true,\n    \"changedRows\": 0\n}"
+				}
+			]
+		},
+		{
+			"name": "https://e4e3f012-ead4-4998-883b-cf4a8e247adc.mock.pstmn.io/rest/products/201",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://e4e3f012-ead4-4998-883b-cf4a8e247adc.mock.pstmn.io/rest/products/201",
+					"protocol": "https",
+					"host": [
+						"e4e3f012-ead4-4998-883b-cf4a8e247adc",
+						"mock",
+						"pstmn",
+						"io"
+					],
+					"path": [
+						"rest",
+						"products",
+						"201"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/data/users/{{lastInsertedId}}",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/data/users/{{lastInsertedId}}",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"data",
+						"users",
+						"{{lastInsertedId}}"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
