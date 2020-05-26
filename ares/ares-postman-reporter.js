@@ -1,4 +1,4 @@
-const features = require('./reports/cucumber-report.json');
+const features = require('../reports/cucumber-report.json');
 // load ares-helper and the ares configuration
 const ares = require('ares-helper');
 ares.debug = true;

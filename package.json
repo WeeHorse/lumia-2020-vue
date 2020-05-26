@@ -7,7 +7,9 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "test:selenium": "node node_modules/selenium-cucumber-js/index.js -f ./tests/selenium/features/ & exit 0",
-    "test:unit": "vue-cli-service test:unit"
+    "test:unit": "vue-cli-service test:unit",
+    "report:selenium": "node ./ares/ares-selenium-reporter.js",
+    "report:unit": "node ./ares/ares-unit-reporter.js"
   },
   "dependencies": {
     "ares-helper": "^1.0.3",

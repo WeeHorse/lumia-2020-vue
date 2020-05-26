@@ -1,6 +1,6 @@
 {
-  "userToken": "Token from webb",
-  "workspaceName": "Workspace name",
-  "projectKey": "Projekt key",
-  "projectName": "Project name"
+  "userToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1ODk4ODQ1NjksImVtYWlsIjoianRob21hc2ZyYW5rQGdtYWlsLmNvbSIsImlhdCI6MTU4OTc5ODE2OX0.MF6kCRJ_c2eD-mlouehrrj-7ZYdScfO9X0v7WG7K7xw",
+  "workspaceName": "Benjamin",
+  "projectKey": "5ecc26c992b3c22b2e5f3605",
+  "projectName": "Lumia"
 }
