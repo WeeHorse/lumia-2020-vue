@@ -1,0 +1,90 @@
+{
+  "numFailedTestSuites": 1,
+  "numFailedTests": 2,
+  "numPassedTestSuites": 1,
+  "numPassedTests": 2,
+  "numPendingTestSuites": 0,
+  "numPendingTests": 0,
+  "numRuntimeErrorTestSuites": 0,
+  "numTodoTests": 0,
+  "numTotalTestSuites": 2,
+  "numTotalTests": 4,
+  "openHandles": [],
+  "snapshot": {
+    "added": 0,
+    "didUpdate": false,
+    "failure": false,
+    "filesAdded": 0,
+    "filesRemoved": 0,
+    "filesRemovedList": [],
+    "filesUnmatched": 0,
+    "filesUpdated": 0,
+    "matched": 0,
+    "total": 0,
+    "unchecked": 0,
+    "uncheckedKeysByFile": [],
+    "unmatched": 0,
+    "updated": 0
+  },
+  "startTime": 1590494125218,
+  "success": false,
+  "testResults": [
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "failureMessages": [],
+          "fullName": "Add email to order",
+          "location": null,
+          "status": "passed",
+          "title": "Add email to order"
+        },
+        {
+          "ancestorTitles": [],
+          "failureMessages": [],
+          "fullName": "Store: email added",
+          "location": null,
+          "status": "passed",
+          "title": "Store: email added"
+        }
+      ],
+      "endTime": 1590494156199,
+      "message": "",
+      "name": "/Applications/AMPPS/www/MVT19/lumia-2020-vue/tests/unit/Order.spec.js",
+      "startTime": 1590494136028,
+      "status": "passed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "failureMessages": [
+            "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected\u001b[39m\n\u001b[31m+ Received\u001b[39m\n\n\u001b[33m@@ -1,7 +1,7 @@\u001b[39m\n\u001b[2m  Object {\u001b[22m\n\u001b[32m-   \"amount\": 2,\u001b[39m\n\u001b[31m+   \"amount\": 1,\u001b[39m\n\u001b[2m    \"cost\": 7100,\u001b[22m\n\u001b[2m    \"description\": \"Mått Ø 55 cm, höjd 30 cm.\",\u001b[22m\n\u001b[2m    \"id\": 9,\u001b[22m\n\u001b[2m    \"image\": \"https://d2lhb5rbruih0q.cloudfront.net/eyJ2IjoxMDIsInQiOiJwcm9kdWN0IiwibiI6IjUyMzI0Ni5qcGcifQ==/107942.jpg?q=85&w=670&h=447&dpr=2\",\u001b[22m\n\u001b[2m    \"keywords\": Array [\u001b[22m\n    at Object.<anonymous>.test (/Applications/AMPPS/www/MVT19/lumia-2020-vue/tests/unit/Cart.spec.js:79:39)\n    at Object.asyncJestTest (/Applications/AMPPS/www/MVT19/lumia-2020-vue/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)\n    at resolve (/Applications/AMPPS/www/MVT19/lumia-2020-vue/node_modules/jest-jasmine2/build/queueRunner.js:43:12)\n    at new Promise (<anonymous>)\n    at mapper (/Applications/AMPPS/www/MVT19/lumia-2020-vue/node_modules/jest-jasmine2/build/queueRunner.js:26:19)\n    at promise.then (/Applications/AMPPS/www/MVT19/lumia-2020-vue/node_modules/jest-jasmine2/build/queueRunner.js:73:41)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"
+          ],
+          "fullName": "Store: addToCart",
+          "location": null,
+          "status": "failed",
+          "title": "Store: addToCart"
+        },
+        {
+          "ancestorTitles": [],
+          "failureMessages": [
+            "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\nExpected: \u001b[32m11380\u001b[39m\nReceived: \u001b[31m9600\u001b[39m\n    at Object.<anonymous>.test (/Applications/AMPPS/www/MVT19/lumia-2020-vue/tests/unit/Cart.spec.js:85:28)\n    at Object.asyncJestTest (/Applications/AMPPS/www/MVT19/lumia-2020-vue/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)\n    at resolve (/Applications/AMPPS/www/MVT19/lumia-2020-vue/node_modules/jest-jasmine2/build/queueRunner.js:43:12)\n    at new Promise (<anonymous>)\n    at mapper (/Applications/AMPPS/www/MVT19/lumia-2020-vue/node_modules/jest-jasmine2/build/queueRunner.js:26:19)\n    at promise.then (/Applications/AMPPS/www/MVT19/lumia-2020-vue/node_modules/jest-jasmine2/build/queueRunner.js:73:41)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"
+          ],
+          "fullName": "Cart: total",
+          "location": null,
+          "status": "failed",
+          "title": "Cart: total"
+        }
+      ],
+      "endTime": 1590494156532,
+      "message": "\u001b[1m\u001b[31m  \u001b[1m● \u001b[1mStore: addToCart\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n    \u001b[32m- Expected\u001b[39m\n    \u001b[31m+ Received\u001b[39m\n\n    \u001b[33m@@ -1,7 +1,7 @@\u001b[39m\n    \u001b[2m  Object {\u001b[22m\n    \u001b[32m-   \"amount\": 2,\u001b[39m\n    \u001b[31m+   \"amount\": 1,\u001b[39m\n    \u001b[2m    \"cost\": 7100,\u001b[22m\n    \u001b[2m    \"description\": \"Mått Ø 55 cm, höjd 30 cm.\",\u001b[22m\n    \u001b[2m    \"id\": 9,\u001b[22m\n    \u001b[2m    \"image\": \"https://d2lhb5rbruih0q.cloudfront.net/eyJ2IjoxMDIsInQiOiJwcm9kdWN0IiwibiI6IjUyMzI0Ni5qcGcifQ==/107942.jpg?q=85&w=670&h=447&dpr=2\",\u001b[22m\n    \u001b[2m    \"keywords\": Array [\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 77 | \u001b[39m  \u001b[36mfor\u001b[39m(let testProduct of testProducts){\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 78 | \u001b[39m    store\u001b[33m.\u001b[39mcommit(\u001b[32m'addToCart'\u001b[39m\u001b[33m,\u001b[39m testProduct)\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[2m\u001b[39m\u001b[90m 79 | \u001b[39m    expect(store\u001b[33m.\u001b[39mstate\u001b[33m.\u001b[39mcart\u001b[33m.\u001b[39mitems[i])\u001b[33m.\u001b[39mtoEqual(expectedProducts[i])\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    | \u001b[39m                                      \u001b[31m\u001b[1m^\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 80 | \u001b[39m    i\u001b[33m++\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 81 | \u001b[39m  }\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 82 | \u001b[39m})\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous>.test (\u001b[2m\u001b[0m\u001b[36mtests/unit/Cart.spec.js\u001b[39m\u001b[0m\u001b[2m:79:39)\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[1mCart: total\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n    Expected: \u001b[32m11380\u001b[39m\n    Received: \u001b[31m9600\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 83 | \u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 84 | \u001b[39mtest(\u001b[32m'Cart: total'\u001b[39m\u001b[33m,\u001b[39m ()\u001b[33m=>\u001b[39m{\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[2m\u001b[39m\u001b[90m 85 | \u001b[39m  expect(wrapper\u001b[33m.\u001b[39mvm\u001b[33m.\u001b[39mtotal)\u001b[33m.\u001b[39mtoEqual(expectedTotal)\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    | \u001b[39m                           \u001b[31m\u001b[1m^\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 86 | \u001b[39m})\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 87 | \u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 88 | \u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous>.test (\u001b[2m\u001b[0m\u001b[36mtests/unit/Cart.spec.js\u001b[39m\u001b[0m\u001b[2m:85:28)\u001b[2m\u001b[22m\n",
+      "name": "/Applications/AMPPS/www/MVT19/lumia-2020-vue/tests/unit/Cart.spec.js",
+      "startTime": 1590494136061,
+      "status": "failed",
+      "summary": ""
+    }
+  ],
+  "wasInterrupted": false
+}

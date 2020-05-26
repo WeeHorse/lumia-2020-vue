@@ -1,0 +1,233 @@
+{
+	"info": {
+		"_postman_id": "02acce0e-d3ae-4576-93c2-de9195f105a8",
+		"name": "Lumia",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:3000/rest/products/",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "6307b06c-bed0-44d6-8729-866548814975",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/rest/products/",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"rest",
+						"products",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/rest/login/",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "0c85f9a8-9518-4a87-846a-9fb2068a0543",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"email\": \"ben@node.se\",\n\t\"password\": \"abc123\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/rest/login/",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"rest",
+						"login",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/rest/login/",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "b389ebf2-3afb-4463-b6aa-c84591c3cb5f",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/rest/login/",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"rest",
+						"login",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/rest/login/",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "431b0948-9e64-42b3-83a6-43bf4c308014",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/rest/login/",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"rest",
+						"login",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/rest/cart/",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "f5ce60e0-9f3d-4d24-8e05-bce0856aac86",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/rest/cart/",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"rest",
+						"cart",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/rest/cart-item/",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "c6c004e8-6346-440e-a80c-240de9e3da3b",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"food\": 2,\n\t\"amount\":1\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/rest/cart-item/",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"rest",
+						"cart-item",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

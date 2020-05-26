@@ -1,4 +1,4 @@
-const features = require('../reports/cucumber-report.json');
+const report = require('../reports/unit-report.json');
 // load ares-helper and the ares configuration
 const ares = require('ares-helper');
 ares.debug = true;
@@ -8,38 +8,28 @@ reportToAres();
 
 async function reportToAres() {
   await ares.startTests();
-  // a feature = a cucumber feature ≈ an ares module
-  for (let feature of features) {
+  // a testResult = a unit testResult ≈ an ares module
+  for (let testResult of report.testResults) {
+
     await ares.startModule({
-      moduleName: feature.name,
-      totalTests: feature.elements.length
+      moduleName: testResult.name,
+      totalTests: testResult.assertionResults.length
     });
-    // console.log('feature', feature.name);
-    for (let scenario of feature.elements) {
-      let error = '';
-      let lastKeyword;
-      for (let step of scenario.steps) {
-        let kw = step.keyword.trim();
-        if (kw === 'After') { continue; }
-        if (kw === 'And') { kw = lastKeyword; }
-        if (step.result.error_message) {
-          error = 'Failed on ' + kw + ' ' + step.name +
-            ' Error: ' + step.result.error_message.split('\n')[0];
-        }
-        lastKeyword = kw;
-      }
+
+    // assertionResult === one unit test with an assertion
+    for (let assertionResult of testResult.assertionResults) {
+
       await ares.testResult({
-        moduleName: feature.name,
-        title: scenario.name,
-        passed: !error,
-        errorMessage: error,
-        testBrowser: 'Firefox' // hardcoded for now
+        moduleName: testResult.name,
+        title: assertionResult.fullName,
+        passed: (assertionResult.status === 'passed'),
+        errorMessage: (assertionResult.failureMessages && assertionResult.failureMessages.join('\n')),
+        testBrowser: 'n/a'
       });
-      // console.log('scenario', scenario.name);
-      // console.log(error ? 'failed: ' + error : 'passed')
+
     }
     await ares.endModule({
-      moduleName: feature.name
+      moduleName: testResult.name
     });
   }
   await ares.endTests()
