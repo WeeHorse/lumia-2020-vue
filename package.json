@@ -10,6 +10,7 @@
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
+    "ares-helper": "^1.0.3",
     "chai": "^4.2.0",
     "chromedriver": "^81.0.0",
     "core-js": "^3.6.4",
